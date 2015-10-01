@@ -1,0 +1,109 @@
+/*******
+GENERAL
+********/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0% 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/********
+HEADING
+*********/
+
+header {
+  float: left;
+  margin: 0px 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  color: brown;
+  text-align: left;
+  margin: 0;
+}
+
+/* Powerful Beats */
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+/* Music Library */
+
+h2 {
+  font-size: 0.75em;
+  margin: -1px 0 35px;
+  font-weight: normal;
+}
+
+/* Apex Motorsports */
+
+ul {
+  font-size: 1em;
+  margin: -1px 0px;
+  font-weight: normal;
+}
+
+/* Live Band Sound */
+
+ul {
+  font-size: 1em;
+  margin: 10px 0 0px;
+  font-weight: normal;
+}
+
+/* Inspire */
+
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* Pipe Dream */
+
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* Beach Hammock Vibe */
+
+ul
+ {
+  font-size: 1em;
+  font-weight: normal;
+
+}
+
+/* add a button titled "Like what you hear?"
+alert appears that says "Contact John Power
+at ukjrp@aol.com for more good music." 
+
+button
+ {
+  font-size: 1em;
+  margin: 10px 0 0px;
+  font-weight: normal;
+  margin: auto;
+
+}
+
+*/
+
+
+
