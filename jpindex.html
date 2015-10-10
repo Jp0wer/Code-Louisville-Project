@@ -1,48 +1,145 @@
 <!DOCTYPE html>
 <html>
-<link href ="jpstyle.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
   <head>
-    <meta charset="utf-8">
-    <title>Powerful Beats</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="jpstyle.css" rel="stylesheet" type="text/css">
   </head>
+      <header class="page-header">
+        <ul class="nav nav-tabs">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </header>
+          <a href="jpindex.html" id="logo">
+          <div class="jumbotron">
+          <h1>Powerful Beats</h1>
+          <h2>Music Library</h2>
+          </div>
+              </a>
+    <title>Powerful Beats</title>
   <body>
-    <header>
-      <a href="jpindex.html" id="logo">
-        <h1>Powerful Beats</h1>
-        <h2>Music Library</h2>
-<ul>Apex Motorsports Project</ul>
-<audio controls>
-<source src="Music/ApexMotorsportsProject.wav" type="audio/wav">
-</audio>
-    <ul>Live Band Sound</ul>
-    <audio controls>
-    <source src="Music/LiveBandSound.mp3" type="audio/mpeg">
-    </audio>
-        <ul>Inspire</ul>
-        <audio controls>
+    <div class="container">
+
+<!--APEX-->
+<div class="wrapper">
+  <div>
+    <img src="apex.jpg" class="img-responsive" alt="APEX">
+  </div>
+  <div>
+    <h3>Apex Motorsports Project</h3>
+    <div class="audio-file">
+      <audio controls>
+        <source src="Music/ApexMotorsportsProject.wav" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Live-->
+<div class="wrapper">
+  <div>
+    <img src="live.jpg" class="img-responsive" alt="Live">
+  </div>
+  <div>
+    <h3>Live Band Sound</h3>
+    <div class="audio-file">
+      <audio controls>
+        <source src="Music/livebandsound.mp3" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Inspire-->
+<div class="wrapper">
+  <div>
+    <img src="inspire.jpg" class="img-responsive" alt="Inspire">
+  </div>
+  <div>
+    <h3>Inspire</h3>
+    <div class="audio-file">
+      <audio controls>
         <source src="Music/Inspire.wav" type="audio/wav">
-        </audio>
-            <ul>Pipe Dream</ul>
-            <audio controls>
-            <source src="Music/PipeDream.mp3" type="audio/mpeg">
-            </audio>
-                <ul>Beach Hammock Vibe</ul>
-                <audio controls>
-                <source src="Music/BeachHammockVibe.mp3" type="audio/mpeg">
-                </audio>    
-                    <ul>Intriguing Strings</ul>
-                    <audio controls>
-                    <source src="Music/IntriguingStrings.mp3" type="audio/mpeg">
-                    </audio>   
-                        <ul>Laid back R&B</ul>
-                        <audio controls>
-                        <source src="Music/LaidBackR&B.mp3" type="audio/mpeg">
-                        </audio> 
-                     </a>
-                    <footer>
-                   <p>&copy; 2015 John Power.</p>
-                  </footer>
-                 </div>
-                </body>
-               </html>
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Pipe Dream-->
+<div class="wrapper">
+  <div>
+    <img src="pipe.jpg" class="img-responsive" alt="Pipe">
+  </div>
+  <div>
+    <h3>Pipe Dream</h3>
+    <div class="audio-file">
+      <audio controls>
+        <source src="Music/PipeDream.mp3" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Beach-->
+<div class="wrapper">
+  <div>
+    <img src="beach.jpg" class="img-responsive" alt="Beach">
+  </div>
+  <div>
+    <h3>Beach Hammock Vibe</h3>
+    <div class="audio-file">
+      <audio controls>
+        <source src="Music/BeachHammockVibe.mp3" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Intriguing-->
+<div class="wrapper">
+  <div>
+    <img src="intriguing.jpg" class="img-responsive" alt="Intriguing">
+  </div>
+  <div>
+    <h3>Intriguing Strings</h3>
+    <div class="audio-file">
+      <audio controls>
+        <source src="Music/IntriguingStrings.mp3" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<!--Laid back-->
+<div class="wrapper">
+  <div>
+    <img src="Laidback.jpg" class="img-responsive" alt="Laidback">
+  </div>
+   <div>
+    <h3>Laidback R&B</h3>
+     <div class="audio-file">
+      <audio controls>
+        <source src="Music/LaidbackR&B.mp3" type="audio/wav">
+      </audio>
+    </div>
+  </div>
+</div>                   
+  </footer>
+   </div>
+    <script>
+      (function($){
+        var wrappers = $('.wrapper .img-responsive');
+          $('.wrapper').click(function(){
+            wrappers.hide();
+              var test = $(this).find('.img-responsive');
+                test.show();
+                  });
+                  })(jQuery);
+                    </script>
+                     </body>
+                      </html>
+
 
